@@ -1,0 +1,416 @@
+
+
+
+/*font-family: montserrat,sans-serif;
+text-shadow:1px 1px 4px rgb(0 0 0 / 20%);
+font-size:30px;
+color:#333;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=DM+Sans&family=Noto+Serif+Khojki&family=Nunito+Sans&family=Raleway:wght@100&family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,100;1,700&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgba(222, 222, 222, 0.984);
+    overflow-x:hidden;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.8rem;
+}
+
+h1,h2,h3,h4,h5{
+  font-weight: 700;
+}
+
+.floatingNav{
+    box-shadow: 0px 1px 10px #999;
+}
+
+.top-header{
+    background-color: #EDF2F7;
+}
+
+ .navbar-nav li{
+    margin-right: 40px;
+    position: relative;
+}
+
+/* .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+  background: -webkit-linear-gradient(#5316af, #5316af);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+  color: rgb(83 22 170); 
+} */
+
+a.nav-link:visited{
+  color: rebeccapurple;
+}
+
+
+
+/* about us section */
+.section-title h2{
+  font-size: 35px;
+  font-weight: 700;
+
+}
+
+.learnmore{
+  padding: 12px;
+  border-style: none;
+  border-radius: 14px;
+  color: white;
+  background-color: #5316af;
+}
+.learnmore:hover{
+  background-color: #7136caf3;
+}
+.section-broder-radius{
+  border-radius: 3.25rem;
+}
+
+.aboutsection-img-border{
+  border-radius: 2.25rem;
+}
+
+.aboutusimg img{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.mission{
+  max-width: 100px;
+  display: block;
+}
+
+.missiondiv{
+  margin-top: -5%;
+}
+
+
+/* End of about us section */
+
+
+/* our service css */
+
+.service{
+  
+}
+
+.serviceimg{
+    max-width:200px;
+    display:block;
+    margin:0px auto 15px auto;
+}
+
+.back{
+  clip-path: polygon(0% 0%, 0% 60%, 100% 100%, 100% 0%);
+  background-color: white;
+  height: 400px;
+}
+
+.owl-slider{
+  z-index: 1;
+  position: relative;
+  margin-top: -12%;
+}
+/*End of  our service css */
+
+
+
+/* Study in your dream land section css */
+.head{
+    color: #5316aa;
+    font-size:32px;
+    font-weight:700;
+}
+
+.dreamdest{
+   
+    /* margin-right:40px;
+    margin-left:40px; */
+}
+/*end of  Study in your dream land section css */
+
+
+
+/* owl carousel css */
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+  } */
+  .owl-nav button.owl-prev {
+    left: 0;
+  }
+  .owl-nav button.owl-next {
+    right: 0;
+  }
+  
+  .owl-nav button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(255, 255, 255, 0.38) !important;
+  }
+
+  .owl-nav button:focus {
+      outline: none;
+  }
+/* End of owl carousel css */
+
+
+
+/* our expert css */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: #7e5eeb;
+  border-radius:20px;
+}
+
+
+/* our expert end */
+
+/* footer css */
+.footer-copyright{
+  background-color: #5316aa;
+}
+
+.footer-top .list-item ul li{
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.footer-top .list-item ul{
+  padding: 0px;
+}
+
+.search{
+  background-color: #5316aa;
+  width: 46px;
+}
+/*End of  footer css */
+
+
+/* key feature section css starts */
+
+.featureimg{
+  max-width: 500px;
+}
+
+/* key feature section css ends*/
+
+/* css for ielts  */
+.backcoverimg{
+   background-image: url("images/images\ \(1\).jpg");
+  
+  background-color: #cccccc;
+  width: 100%;
+  height: 244px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* background-attachment: fixed; */
+};
+
+.whyielts{
+  text-align: center;
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+
+  
+}
+
+.ielts-items{
+
+  max-width:100px;
+  align-items: center;
+  margin-top: -10%;
+  z-index: 1111111;
+  position: relative;
+
+  
+}
+
+.ielts-div{
+  background-color: #885dc5;
+}
+
+.ilets-divtop{
+  margin-top: -5%;
+ 
+  position: relative;
+}
+
+
+
+.sometext{
+position: absolute;
+top: 50%;
+left: 50%;
+margin: -50px 0 0 -108px
+}
+
+#ielts{
+  background-image: url(images/uk\ \(3\).jpg);
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
+  background-attachment: fixed;
+
+
+}
+
+#ielts1{
+
+  background-image: url(images/BC-Blog_StudyAbroad_2.18.20_3.jpg);
+  background-size: cover;
+  height: 500px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 2;
+  background-attachment: fixed;
+
+}
+
+.overlay{
+  position: relative;
+  top: 0;
+  left:0;
+  width: 100%;
+  height:100%;
+  background: linear-gradient(45deg, #9c27b07a 50%, #3f51b5db 50%)
+}
+
+.overlay2{
+  position: relative;
+  top: 0;
+  left:0;
+  width: 100%;
+  height:100%;
+  background-color:  #3f51b5db 
+
+}
+
+.overlay1{
+  position: relative;
+  top: 0;
+  left:0;
+  width: 100%;
+  height:100%;
+  background-color: #885dc58c;
+
+}
+
+.hero-text{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.study-ielts{
+  padding-bottom: 84px;
+  padding-top: 20px;
+}
+
+.inquery{
+  background-color: #7e5eeb;
+  color: white;
+  font-weight: 600;
+}
+
+
+.inquery:hover{
+  color: white;
+  background-color: #311882;
+  transform: translateY(-4px);
+  transition: all 0.4s ease;
+}
+
+.courseinfo{
+  border: 1px slateblue solid;
+  border-radius: 5px;
+  
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  
+  border: none;
+  outline: none;
+
+  color: white;
+  cursor: pointer;
+  
+ 
+}
+
+
+
+
+
+/* css for ielts ends */
+
+
+/* css for migration and visa ends */
+
+.getintouch{
+  
+  padding-left: 100x;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* css for migration and visa ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
